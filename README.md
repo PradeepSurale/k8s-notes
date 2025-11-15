@@ -1,2 +1,2 @@
-# k8s-notes
+# Kubernetes
 Kubernetes Quick Overview and CKAD Preparation material
