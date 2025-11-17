@@ -1,44 +1,23 @@
-1. Concepts Overview + Notes.
-    a.
-2. Labs
+## Certified Kubernetes Application Developer Pathway
 
-----
-3. GitRepositories:
-   a. https://github.com/SafeEHA/CKAD-Practice-Questions
-   b. https://github.com/dgkanatsios/CKAD-exercises
-   c. https://github.com/bbachi/CKAD-Practice-Questions
-   d. https://github.com/jamesbuckett/ckad-questions
-   e. https://github.com/marcusvieira88/CKAD-kubernetes-certification-commands
-   f.
-4. Certified Kubernetes Application Developer - Full Mock Exam Series
-----
+### Concepts and Understandings
+1. Concepts Understanding (all resources in the repository)
+2. Course - https://udemy.com/course/certified-kubernetes-application-developer/
 
+### Practice Practice Practice
+  1. https://github.com/SafeEHA/CKAD-Practice-Questions
+  2. https://github.com/dgkanatsios/CKAD-exercises
+  3. https://github.com/bbachi/CKAD-Practice-Questions
+  4. https://github.com/jamesbuckett/ckad-questions
+  5. https://github.com/marcusvieira88/CKAD-kubernetes-certification-commands
+  6. killerCoda - https://killercoda.com/killer-shell-ckad
+  8. KillerCoda - https://killercoda.com/chadmcrowell/course/ckad
+  7. Full Mock Exam Series: https://learn.kodekloud.com/user/courses/ultimate-certified-kubernetes-application-developer-ckad-mock-exam-series
 
-- StatefulSet – For stateful apps (stable identity, storage)
-- Job – Runs a task to completion
-- CronJob – Scheduled Jobs
-- Service
-  ClusterIP
-  NodePort
-  LoadBalancer
-  ExternalName
-- Ingress – HTTP/HTTPS routing
-- NetworkPolicy – Pod-level network rules
+### Pre Exam
+  1. killer.sh simulator
 
-Configuration
+### Exam
+  1. Real Exam
 
-  ConfigMap – Non-sensitive configuration values
-  Secret – Sensitive data (passwords, tokens, keys)
-
-Storage
-  PersistentVolume (PV) – Actual storage
-  PersistentVolumeClaim (PVC) – Request for storage
-  StorageClass – Dynamic provisioning rules
-  Volume – Attached storage inside Pods
-
-Security.
-  ServiceAccount – Identity for Pods
-  Role – RBAC permissions within a namespace
-  ClusterRole – RBAC permissions cluster-wide
-  RoleBinding – Attach Role to users/accounts
-  ClusterRoleBinding – Attach ClusterRole to users/accounts
+# CERTIFIED KUBERNETES APPLICATION DEVELOPER

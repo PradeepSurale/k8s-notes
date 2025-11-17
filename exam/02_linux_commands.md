@@ -1,7 +1,12 @@
-1. mkdir hello
+#### Create Directory
+  `mkdir hello`
 
-`create directory name hello`
+#### Create Recursive (child) directories
+  `mkdir -p /opt/course/1/`
 
-2. mkdir -p /opt/course/1/
+#### Execute Shell script
+  `sh <filepath>/<filename>`
 
-`create all subdirectories`
+  `sh /opt/course/2/pod1-status-command.sh`
+
+####
