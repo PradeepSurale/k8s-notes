@@ -28,6 +28,8 @@
 `kubectl annotate pods -l type=worker key1=value1 key2=value2`
 
 #### Search pods with multiple label values and Add label
+`k -n sun label pod -l "<label-key> in (<label-value1,label-value2>)" <new-label-key>=<new-label-value>`
+
 `k -n sun label pod -l "type in (worker,runner)" protected=true`
 
 ####  Create Pod and Run command without showing the output
